@@ -4,4 +4,5 @@
     <string name="repo_fullname">FullName : %s</string>
     <string name="repo_owner">Owner : %s</string>
     <string name="repo_description">Description : %s</string>
+    <string name="btn_ok">OK</string>
 </resources>

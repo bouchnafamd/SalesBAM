@@ -17,11 +17,20 @@
         app:layout_constraintEnd_toEndOf="parent"
         android:indeterminate="true" />
 
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/repoListView"
-        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent"
+        android:id="@+id/swipeLayout">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/repoListView"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+
 
 
 
