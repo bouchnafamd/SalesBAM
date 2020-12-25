@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <androidx.appcompat.widget.AppCompatTextView
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:text="Name"
+        android:layout_marginStart="10dp"
+        android:id="@+id/nameText"
+        android:textColor="@android:color/black"
+        android:textSize="19sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        app:layout_constraintTop_toBottomOf="@+id/nameText"
+        app:layout_constraintStart_toStartOf="parent"
+        android:text="FullName"
+        android:layout_marginStart="10dp"
+        android:id="@+id/fullNameText"
+        android:textColor="@android:color/black"
+        android:textSize="19sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        app:layout_constraintTop_toBottomOf="@+id/fullNameText"
+        app:layout_constraintStart_toStartOf="parent"
+        android:text="Owner"
+        android:layout_marginStart="10dp"
+        android:id="@+id/ownerText"
+        android:textColor="@android:color/black"
+        android:textSize="19sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        app:layout_constraintTop_toBottomOf="@+id/ownerText"
+        app:layout_constraintStart_toStartOf="parent"
+        android:text="Description"
+        android:layout_marginStart="10dp"
+        android:id="@+id/descriptionText"
+        android:textColor="@android:color/black"
+        android:textSize="19sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <View
+        app:layout_constraintTop_toBottomOf="@+id/descriptionText"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/darker_gray"
+        android:layout_height="1dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

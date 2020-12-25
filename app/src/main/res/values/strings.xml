@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">GitHUB Bam</string>
+    <string name="repo_name">Name : %s</string>
+    <string name="repo_fullname">FullName : %s</string>
+    <string name="repo_owner">Owner : %s</string>
+    <string name="repo_description">Description : %s</string>
 </resources>
